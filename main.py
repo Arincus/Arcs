@@ -85,29 +85,34 @@ class MyWidget(QMainWindow):
 
     def draw_flag(self, qp):
         a = random.randint(0, 600)
-        b = random.randint(0, 500)
-        qp.setPen(QColor(255, 250, 0))
-        qp.drawArc(a, a, b, b, 0, 90 * 90)
+        v = random.randint(1, 600)
+        s = random.randint(0, 500)
+        qp.setPen(QColor(255, 255, 0))
+        qp.drawArc(a, v, s, s, 0, 90 * 90)
 
         a = random.randint(0, 600)
-        b = random.randint(0, 500)
-        qp.setPen(QColor(255, 250, 0))
-        qp.drawArc(a, a, b, b, 0, 90 * 90)
+        v = random.randint(1, 600)
+        s = random.randint(0, 500)
+        qp.setPen(QColor(255, 255, 0))
+        qp.drawArc(a, v, s, s, 0, 90 * 90)
 
         a = random.randint(0, 600)
-        b = random.randint(0, 500)
-        qp.setPen(QColor(255, 250, 0))
-        qp.drawArc(a, a, b, b, 0, 90 * 90)
+        v = random.randint(1, 600)
+        s = random.randint(0, 500)
+        qp.setPen(QColor(255, 255, 0))
+        qp.drawArc(a, v, s, s, 0, 90 * 90)
 
         a = random.randint(0, 600)
-        b = random.randint(0, 500)
-        qp.setPen(QColor(255, 250, 0))
-        qp.drawArc(a, a, b, b, 0, 90 * 90)
+        v = random.randint(1, 600)
+        s = random.randint(0, 500)
+        qp.setPen(QColor(255, 255, 0))
+        qp.drawArc(a, v, s, s, 0, 90 * 90)
 
         a = random.randint(0, 600)
-        b = random.randint(0, 500)
-        qp.setPen(QColor(255, 250, 0))
-        qp.drawArc(a, a, b, b, 0, 90 * 90)
+        v = random.randint(1, 600)
+        s = random.randint(0, 500)
+        qp.setPen(QColor(255, 255, 0))
+        qp.drawArc(a, v, s, s, 0, 90 * 90)
 
 
 if __name__ == '__main__':
